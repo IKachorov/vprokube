@@ -30,7 +30,7 @@ spec:
                 name: app-secret
                 key: db-pass
       volumes:
-        - name: vpro-db-dat6a
+        - name: vpro-db-data
           persistentVolumeClaim:
             claimName: db-pv-claim
 
